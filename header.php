@@ -16,6 +16,16 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<!-- Bootstrap core CSS -->
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome Icons -->
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -65,7 +75,7 @@
 						)); 
 					?>
 				</div>
-				
+
 				<!-- container -->
 
 			</div>
